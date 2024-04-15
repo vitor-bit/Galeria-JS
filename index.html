@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <title>Galeria Dinâmica JS</title>
+</head>
+
+<body>
+  <header>
+    <h1>Galeria Dinâmica</h1>
+  </header>
+  <section>
+    <div id="container">
+      <img id="img1" onclick="removerImagem(1)" src="" alt="">
+      <img id="img2" onclick="removerImagem(2)" src="" alt="">
+      <img id="img3" onclick="removerImagem(3)" src="" alt="">
+      <img id="img4" onclick="removerImagem(4)" src="" alt="">
+      <img id="img5" onclick="removerImagem(5)" src="" alt="">
+      <img id="img6" onclick="removerImagem(6)" src="" alt="">
+    </div>
+    <input id="selecionarImagem" type="file" name="Baixar imagens">
+    <button id="botaoEnviar" onclick="enviarImagem()">Enviar imagem</button>
+  </section>
+  <script src="/index.js"></script>
+</body>
+</html>
